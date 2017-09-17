@@ -18,14 +18,36 @@ class TwoDimensionalArraySolver {
 
         return getMin(dataOfMaxByModuleColumn);
     }
+    int[] getMinimumsToDiagonal() {
+        int[] minimumsToDiagonal = new int[arrayData[0].length];
 
-    void showArray() {
         for (int i = 0; i < arrayData[0].length; i++) {
-            for (int j = 0; j < arrayData[1].length; j++) {
-                System.out.print(arrayData[i][j] + "\t");
-            }
-            System.out.println();
+            int[] currentRowToDiagonalData = new int[i + 1];
+            System.arraycopy(arrayData[i], 0, currentRowToDiagonalData, 0, i + 1);
+            minimumsToDiagonal[i] = getMin(currentRowToDiagonalData);
         }
+
+        return minimumsToDiagonal;
+    }
+    int[] getFirstPositivesToDiagonal() {
+        int[] positivesToDiagonal = new int[arrayData[0].length];
+
+        for (int i = 0; i < arrayData[0].length; i++) {
+            boolean isPositiveToDiagonal = false;
+            for (int j = 0; j <= i; j++) {
+                if (arrayData[i][j] > 0) {
+                    positivesToDiagonal[i] = arrayData[i][j];
+                    isPositiveToDiagonal = true;
+                    break;
+                }
+            }
+
+            if (!isPositiveToDiagonal) {
+                positivesToDiagonal[i] = 1;
+            }
+        }
+
+        return positivesToDiagonal;
     }
 
     private int getMaxByModuleColumn(){
@@ -39,7 +61,6 @@ class TwoDimensionalArraySolver {
 
         return getIndexOfMax(moduleColumnSum);
     }
-
     private int getMin(int[] data) {
         int min = data[0];
 

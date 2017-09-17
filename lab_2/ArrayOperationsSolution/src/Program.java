@@ -3,7 +3,7 @@
  */
 public class Program {
     public static void main(String[] args) {
-        // solveOneDimensionalArray();
+        solveOneDimensionalArray();
         solveMultiDimensionalArray();
     }
 
@@ -13,6 +13,7 @@ public class Program {
         int arraySize = arrayInitializer.requestArraySize();
         int[] array = arrayInitializer.initializeOneDimensionalArray(arraySize);
 
+        // ArrayPrinter.printArray(array);
         OneDimensionalArraySolver oneDimensionalArraySolver = new OneDimensionalArraySolver(array);
         System.out.println("The number of positive items: " + oneDimensionalArraySolver.getCountOfPositive());
         System.out.println("Sum of elements larger than 3: " + oneDimensionalArraySolver.getSumOfLargerThanThree());
@@ -25,11 +26,21 @@ public class Program {
     private static void solveMultiDimensionalArray(){
         ArrayInitializer arrayInitializer = new ArrayInitializer();
 
-        int arraySize = arrayInitializer.requestArraySize();
-        int[][] array = arrayInitializer.intializeTwoDimensionalArray(arraySize);
+        // 8 - by task
+        int[][] array1 = arrayInitializer.intializeTwoDimensionalArray(8);
+        // ArrayPrinter.printArray(array1);
+        TwoDimensionalArraySolver twoDimensionalArraySolver = new TwoDimensionalArraySolver(array1);
+        System.out.println("The least element of max by module column: " + twoDimensionalArraySolver.getLeastElementOfMaxByModuleColumn());
 
-        TwoDimensionalArraySolver twoDimensionalArraySolver = new TwoDimensionalArraySolver(array);
-        // twoDimensionalArraySolver.showArray();
-        System.out.println(twoDimensionalArraySolver.getLeastElementOfMaxByModuleColumn());
+        int arraySize = arrayInitializer.requestArraySize();
+        int[][] array2 = arrayInitializer.intializeTwoDimensionalArray(arraySize);
+        // ArrayPrinter.printArray(array2);
+        twoDimensionalArraySolver = new TwoDimensionalArraySolver(array2);
+
+        System.out.println("Minimums to diagonal: ");
+        ArrayPrinter.printArray(twoDimensionalArraySolver.getMinimumsToDiagonal());
+
+        System.out.println("\nFirst positives to diagonal: ");
+        ArrayPrinter.printArray(twoDimensionalArraySolver.getFirstPositivesToDiagonal());
     }
 }

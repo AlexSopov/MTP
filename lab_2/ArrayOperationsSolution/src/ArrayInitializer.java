@@ -64,7 +64,7 @@ class ArrayInitializer {
         try {
             result = Integer.parseInt(bufferedReader.readLine());
         } catch (IOException ioe) {
-            System.out.println("IO exception has occurred during runtime. Try again.");
+            System.out.println("IO exception has occurred during runtime.");
             System.exit(1);
         } catch(NumberFormatException nfe) {
             System.out.println("Incorrect format of value. Try again.");
