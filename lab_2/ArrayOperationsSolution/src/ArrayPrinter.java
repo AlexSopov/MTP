@@ -1,6 +1,3 @@
-/**
- * Created by Acer on 17.09.2017.
- */
 class ArrayPrinter {
     private ArrayPrinter() {}
 
@@ -11,10 +8,14 @@ class ArrayPrinter {
             }
             System.out.println();
         }
+
+        System.out.println();
     }
     static void printArray(int[] arrayData) {
         for (int value : arrayData) {
             System.out.print(value + "\t");
         }
+
+        System.out.println();
     }
 }

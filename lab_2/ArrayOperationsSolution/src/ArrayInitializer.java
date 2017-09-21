@@ -3,9 +3,6 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Random;
 
-/**
- * Created by Acer on 17.09.2017.
- */
 
 class ArrayInitializer {
     private BufferedReader bufferedReader;
@@ -41,7 +38,7 @@ class ArrayInitializer {
 
         return result;
     }
-    int[][] intializeTwoDimensionalArray(int length) {
+    int[][] initializeTwoDimensionalArray(int length) {
         if (length < 1) {
             throw new IllegalArgumentException("Parameter length must be at least 1.");
         }

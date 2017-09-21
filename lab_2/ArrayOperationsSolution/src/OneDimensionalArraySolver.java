@@ -1,8 +1,5 @@
 import java.util.Arrays;
 
-/**
- * Created by Acer on 17.09.2017.
- */
 
 class OneDimensionalArraySolver {
     private int[] arrayData;
@@ -44,11 +41,10 @@ class OneDimensionalArraySolver {
     }
     int getCountOfNegative() {
         int count = 0;
-        for (int i = 0; i < sortedData.length; i++) {
-            if (sortedData[i] < 0) {
+        for (int aSortedData : sortedData) {
+            if (aSortedData < 0) {
                 count++;
-            }
-            else {
+            } else {
                 break;
             }
         }
@@ -57,11 +53,10 @@ class OneDimensionalArraySolver {
     }
     int getSumOfNegative() {
         int sum = 0;
-        for (int i = 0; i < sortedData.length; i++) {
-            if (sortedData[i] < 0) {
-                sum += sortedData[i];
-            }
-            else {
+        for (int aSortedData : sortedData) {
+            if (aSortedData < 0) {
+                sum += aSortedData;
+            } else {
                 break;
             }
         }

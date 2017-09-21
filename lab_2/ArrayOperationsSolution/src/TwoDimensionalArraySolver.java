@@ -1,6 +1,3 @@
-/**
- * Created by Acer on 17.09.2017.
- */
 class TwoDimensionalArraySolver {
     private int[][] arrayData;
 
