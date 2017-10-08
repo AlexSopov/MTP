@@ -1,0 +1,19 @@
+package ArraySorting;
+
+import java.util.Comparator;
+
+
+public class BubbleSorter extends Sortable {
+    @Override
+    protected <T> void processSorting(T[] source, Comparator<T> comparator) {
+
+        for (int i = source.length - 1; i >= 0; i--) {
+
+            for (int j = 0; j < i; j++) {
+                if (compare(source, j, j + 1, comparator) > 0) {
+                    swap(source, j, j + 1);
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ArraySort.iml" filepath="$PROJECT_DIR$/.idea/modules/ArraySort.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ArraySort_main.iml" filepath="$PROJECT_DIR$/.idea/modules/ArraySort_main.iml" group="ArraySort" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ArraySort_test.iml" filepath="$PROJECT_DIR$/.idea/modules/ArraySort_test.iml" group="ArraySort" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ArraySorting/ArraySorting.iml" filepath="$PROJECT_DIR$/.idea/modules/ArraySorting/ArraySorting.iml" group="ArraySorting" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ArraySortingUsage/ArraySortingUsage.iml" filepath="$PROJECT_DIR$/.idea/modules/ArraySortingUsage/ArraySortingUsage.iml" group="ArraySortingUsage" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ArraySortingUsage/ArraySortingUsage_main.iml" filepath="$PROJECT_DIR$/.idea/modules/ArraySortingUsage/ArraySortingUsage_main.iml" group="ArraySortingUsage" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ArraySortingUsage/ArraySortingUsage_test.iml" filepath="$PROJECT_DIR$/.idea/modules/ArraySortingUsage/ArraySortingUsage_test.iml" group="ArraySortingUsage" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ArraySorting/ArraySorting_main.iml" filepath="$PROJECT_DIR$/.idea/modules/ArraySorting/ArraySorting_main.iml" group="ArraySorting" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ArraySorting/ArraySorting_test.iml" filepath="$PROJECT_DIR$/.idea/modules/ArraySorting/ArraySorting_test.iml" group="ArraySorting" />
+    </modules>
+  </component>
+</project>
