@@ -65,12 +65,15 @@ class OneDimensionalArraySolver {
     }
     int getMinElementMultipleFive() {
         int min = arrayData[0];
+        boolean isFound = false;
+
         for (int value : arrayData) {
             if (value % 5 == 0 && value < min) {
                 min = value;
+                isFound = true;
             }
         }
 
-        return min;
+        return isFound ? min : 0;
     }
 }
