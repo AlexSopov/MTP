@@ -21,10 +21,12 @@
     <bytecodeTargetLevel>
       <module name="ArraySort_main" target="1.8" />
       <module name="ArraySort_test" target="1.8" />
-      <module name="ArraySorting_main" target="1.8" />
-      <module name="ArraySorting_test" target="1.8" />
-      <module name="ArraySortingUsage_main" target="1.8" />
-      <module name="ArraySortingUsage_test" target="1.8" />
+      <module name="ArraySorting_main" target="1.6" />
+      <module name="ArraySorting_test" target="1.6" />
+      <module name="ArraySortingUsage_main" target="1.6" />
+      <module name="ArraySortingUsage_test" target="1.6" />
+      <module name="ArraySortUsage_main" target="1.6" />
+      <module name="ArraySortUsage_test" target="1.6" />
       <module name="fdsfsdafsa_main" target="1.5" />
       <module name="fdsfsdafsa_test" target="1.5" />
     </bytecodeTargetLevel>

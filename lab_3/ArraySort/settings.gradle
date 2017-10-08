@@ -1,4 +1,4 @@
-rootProject.name = 'ArraySort'
+rootProject.name = 'ArraySortUsage'
 include 'ArraySorting'
 include 'ArraySortingUsage'
 

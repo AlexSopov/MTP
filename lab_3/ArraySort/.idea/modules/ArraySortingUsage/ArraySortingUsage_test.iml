@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module external.linked.project.id=":ArraySortingUsage:test" external.linked.project.path="$MODULE_DIR$/../../../ArraySortingUsage" external.root.project.path="$MODULE_DIR$/../../.." external.system.id="GRADLE" external.system.module.group="ArraySort" external.system.module.type="sourceSet" external.system.module.version="1.0" type="JAVA_MODULE" version="4">
-  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8" inherit-compiler-output="false">
+<module external.linked.project.id=":ArraySortingUsage:test" external.linked.project.path="$MODULE_DIR$/../../../ArraySortingUsage" external.root.project.path="$MODULE_DIR$/../../.." external.system.id="GRADLE" external.system.module.group="ArraySortUsage" external.system.module.type="sourceSet" external.system.module.version="1.0" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_6" inherit-compiler-output="false">
     <output-test url="file://$MODULE_DIR$/../../../ArraySortingUsage/build/classes/test" />
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../ArraySortingUsage/src/test">
@@ -10,6 +10,7 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="ArraySortingUsage_main" />
+    <orderEntry type="module" module-name="ArraySorting_main" />
     <orderEntry type="library" name="Gradle: junit:junit:4.11" level="project" />
     <orderEntry type="library" name="Gradle: org.hamcrest:hamcrest-core:1.3" level="project" />
   </component>

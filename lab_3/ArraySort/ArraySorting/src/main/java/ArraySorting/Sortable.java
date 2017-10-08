@@ -10,6 +10,7 @@ public abstract class Sortable {
         processSorting(source, comparator);
     }
 
+    public abstract String getSortingMethodName();
     abstract <T> void processSorting(T[] source, Comparator<T> comparator);
 
     <T> int compare(T a, T b, Comparator comparator) {

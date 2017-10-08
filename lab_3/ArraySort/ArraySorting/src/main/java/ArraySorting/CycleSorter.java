@@ -4,7 +4,7 @@ import java.util.Comparator;
 
 public class CycleSorter extends Sortable {
     @Override
-    protected <T> void processSorting(T[] source, Comparator<T> comparator) {
+    <T> void processSorting(T[] source, Comparator<T> comparator) {
         int length = source.length;
 
         for (int cycleStart = 0; cycleStart < length - 1; cycleStart++)
@@ -54,5 +54,10 @@ public class CycleSorter extends Sortable {
                 }
             }
         }
+    }
+
+    @Override
+    public String getSortingMethodName() {
+        return "Cycle sort";
     }
 }

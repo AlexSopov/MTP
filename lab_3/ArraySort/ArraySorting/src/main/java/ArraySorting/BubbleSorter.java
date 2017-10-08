@@ -5,7 +5,7 @@ import java.util.Comparator;
 
 public class BubbleSorter extends Sortable {
     @Override
-    protected <T> void processSorting(T[] source, Comparator<T> comparator) {
+    <T> void processSorting(T[] source, Comparator<T> comparator) {
 
         for (int i = source.length - 1; i >= 0; i--) {
 
@@ -15,5 +15,10 @@ public class BubbleSorter extends Sortable {
                 }
             }
         }
+    }
+
+    @Override
+    public String getSortingMethodName() {
+        return "Bubble sort";
     }
 }

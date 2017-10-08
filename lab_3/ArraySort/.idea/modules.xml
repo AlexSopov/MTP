@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ArraySort.iml" filepath="$PROJECT_DIR$/.idea/modules/ArraySort.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ArraySort_main.iml" filepath="$PROJECT_DIR$/.idea/modules/ArraySort_main.iml" group="ArraySort" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ArraySort_test.iml" filepath="$PROJECT_DIR$/.idea/modules/ArraySort_test.iml" group="ArraySort" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ArraySortUsage.iml" filepath="$PROJECT_DIR$/.idea/modules/ArraySortUsage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ArraySortUsage_main.iml" filepath="$PROJECT_DIR$/.idea/modules/ArraySortUsage_main.iml" group="ArraySortUsage" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ArraySortUsage_test.iml" filepath="$PROJECT_DIR$/.idea/modules/ArraySortUsage_test.iml" group="ArraySortUsage" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ArraySorting/ArraySorting.iml" filepath="$PROJECT_DIR$/.idea/modules/ArraySorting/ArraySorting.iml" group="ArraySorting" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ArraySortingUsage/ArraySortingUsage.iml" filepath="$PROJECT_DIR$/.idea/modules/ArraySortingUsage/ArraySortingUsage.iml" group="ArraySortingUsage" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ArraySortingUsage/ArraySortingUsage_main.iml" filepath="$PROJECT_DIR$/.idea/modules/ArraySortingUsage/ArraySortingUsage_main.iml" group="ArraySortingUsage" />

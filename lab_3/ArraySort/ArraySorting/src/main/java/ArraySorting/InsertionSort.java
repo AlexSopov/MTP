@@ -4,7 +4,7 @@ import java.util.Comparator;
 
 public class InsertionSort extends Sortable {
     @Override
-    protected <T> void processSorting(T[] source, Comparator<T> comparator) {
+    <T> void processSorting(T[] source, Comparator<T> comparator) {
         for (int i = 1; i < source.length; i++) {
             int j = i - 1;
 
@@ -14,5 +14,10 @@ public class InsertionSort extends Sortable {
             }
             source[j + 1] = source[i];
         }
+    }
+
+    @Override
+    public String getSortingMethodName() {
+        return "Insertion sort";
     }
 }

@@ -4,7 +4,7 @@ import java.util.Comparator;
 
 public class ShellSort extends Sortable {
     @Override
-    protected <T> void processSorting(T[] source, Comparator<T> comparator) {
+    <T> void processSorting(T[] source, Comparator<T> comparator) {
         int length = source.length;
 
         for (int gap = source.length / 2; gap > 0; gap /= 2) {
@@ -20,5 +20,10 @@ public class ShellSort extends Sortable {
                 source[j] = temp;
             }
         }
+    }
+
+    @Override
+    public String getSortingMethodName() {
+        return "Shell sort";
     }
 }

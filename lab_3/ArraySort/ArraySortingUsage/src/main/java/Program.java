@@ -1,17 +1,21 @@
-import ArraySorting.CycleSorter;
-import ArraySorting.Sortable;
+import ArraySorting.*;
 
 import java.util.Random;
 
 public class Program {
     public static void main(String[] args) {
-        Sortable sortable = new CycleSorter();
+        Integer[] data = initializeRandomArray(10000);
 
-        Integer[] data = initializeOneDimensionalArray(100);
-        sortable.sort(data);
+        SortingMetricsCollector sortingMetricsCollector = new SortingMetricsCollector();
+        sortingMetricsCollector.getMetricsForSort(new BubbleSorter(), data);
+        sortingMetricsCollector.getMetricsForSort(new InsertionSort(), data);
+        sortingMetricsCollector.getMetricsForSort(new QuickSorter(), data);
+        sortingMetricsCollector.getMetricsForSort(new CycleSorter(), data);
+        sortingMetricsCollector.getMetricsForSort(new ShellSort(), data);
+        sortingMetricsCollector.getMetricsForSort(new JavaNativeSort(), data);
     }
 
-    static Integer[] initializeOneDimensionalArray(int length) {
+    private static Integer[] initializeRandomArray(int length) {
         Random random = new Random();
 
         Integer[] result = new Integer[length];
