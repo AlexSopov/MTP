@@ -1,8 +1,8 @@
-package ArraySorting;
+package SoringMethods;
 
 import java.util.Comparator;
 
-public class InsertionSort extends Sortable {
+public class InsertionSorter extends Sortable {
     @Override
     <T> void processSorting(T[] source, Comparator<T> comparator) {
         for (int i = 1; i < source.length; i++) {

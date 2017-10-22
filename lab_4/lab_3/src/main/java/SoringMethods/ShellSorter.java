@@ -1,8 +1,8 @@
-package ArraySorting;
+package SoringMethods;
 
 import java.util.Comparator;
 
-public class ShellSort extends Sortable {
+public class ShellSorter extends Sortable {
     @Override
     <T> void processSorting(T[] source, Comparator<T> comparator) {
         int length = source.length;

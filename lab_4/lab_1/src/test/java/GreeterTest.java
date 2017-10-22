@@ -7,4 +7,9 @@ public class GreeterTest {
     public void greeterGreetsCorrect() {
         Assert.assertTrue("Hello, World!".equalsIgnoreCase(new Greeter().greet()));
     }
+
+    @Test
+    public void mainPasses() {
+        Program.main(new String[] {});
+    }
 }
