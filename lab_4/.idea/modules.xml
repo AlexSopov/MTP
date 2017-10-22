@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/allLabs.iml" filepath="$PROJECT_DIR$/.idea/modules/allLabs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/allLabs_main.iml" filepath="$PROJECT_DIR$/.idea/modules/allLabs_main.iml" group="allLabs" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/allLabs_test.iml" filepath="$PROJECT_DIR$/.idea/modules/allLabs_test.iml" group="allLabs" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lab_1/lab_1.iml" filepath="$PROJECT_DIR$/.idea/modules/lab_1/lab_1.iml" group="lab_1" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lab_1/lab_1_main.iml" filepath="$PROJECT_DIR$/.idea/modules/lab_1/lab_1_main.iml" group="lab_1" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lab_1/lab_1_test.iml" filepath="$PROJECT_DIR$/.idea/modules/lab_1/lab_1_test.iml" group="lab_1" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lab_2/lab_2.iml" filepath="$PROJECT_DIR$/.idea/modules/lab_2/lab_2.iml" group="lab_2" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lab_2/lab_2_main.iml" filepath="$PROJECT_DIR$/.idea/modules/lab_2/lab_2_main.iml" group="lab_2" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lab_2/lab_2_test.iml" filepath="$PROJECT_DIR$/.idea/modules/lab_2/lab_2_test.iml" group="lab_2" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lab_3/lab_3.iml" filepath="$PROJECT_DIR$/.idea/modules/lab_3/lab_3.iml" group="lab_3" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lab_3/lab_3_main.iml" filepath="$PROJECT_DIR$/.idea/modules/lab_3/lab_3_main.iml" group="lab_3" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lab_3/lab_3_test.iml" filepath="$PROJECT_DIR$/.idea/modules/lab_3/lab_3_test.iml" group="lab_3" />
+    </modules>
+  </component>
+</project>

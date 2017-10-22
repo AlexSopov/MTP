@@ -1,0 +1,6 @@
+rootProject.name = 'allLabs'
+include 'lab_1'
+include 'lab_1'
+include 'lab_2'
+include 'lab_3'
+
